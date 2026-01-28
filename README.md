@@ -113,13 +113,13 @@ Employee-Attrition-Risk-Prediction/
 
 ```
 ---
+##Development Notebook
 
-## Development Notebook
+The complete model development process — including data preprocessing, feature engineering, model training, evaluation, and explainability — is documented in the notebook below:
 
-The complete model development process — including data preprocessing, feature engineering, model training, evaluation, and explainability — is documented in the `notebooks/` folder.
+**[View Full Project Notebook](https://github.com/pvb-king/Employee-Attrition-Risk-Prediction/blob/6d655e0213c062c65f7686b2d7c269a7d04176ba/Employee_Attrition_Prediction_BhargavanPV.ipynb)**
 
-This notebook captures the full learning and experimentation journey behind the final deployed system.
-
+This notebook captures the full learning, experimentation, and decision-making journey behind the final deployed system.
 ---
 
 ## How to Run the Project
@@ -140,5 +140,6 @@ The application will open in your browser
 - High explainability is critical for HR analytics adoptation
 - Deployment requires strict feature alignment between training and interference
 - SHAP greatly improves trust and interpretability of ML system
+
 
 
