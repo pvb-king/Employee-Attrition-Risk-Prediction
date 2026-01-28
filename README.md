@@ -97,26 +97,21 @@ The application reconstructs the **full encoded feature space** used during trai
 
 ## Project Structure
 
-Attrition\_Prediction/
+```text
+Employee-Attrition-Risk-Prediction/
 │
-├── app.py # Streamlit application
-├── requirements.txt # Dependencies
-├── README.md # Project documentation
+├── app.py                       # Streamlit web application
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation
 │
-├── models/
-│ ├── attrition\_pipeline.pkl   # Scaler + trained model pipeline
-│ ├── best\_xgb.pkl             # Raw XGBoost model (for SHAP)
-│ ├── feature\_columns.pkl      # Full feature list (alignment)
-│ └── default\_values.pkl       # Default feature values
+├── attrition_pipeline.pkl       # Scaler + trained ML pipeline
+├── best_xgb_model.pkl           # XGBoost model (used for SHAP)
+├── feature_columns.pkl          # Encoded feature list (44 features)
+├── default_values.pkl           # Default feature values
 │
-├── notebooks/
-│ └── Attrition\_Project\_Journey.ipynb
-│
-└── data/
-└── WA\_Fn-UseC\_-HR-Employee-Attrition.csv
+└── WA_Fn-UseC_-HR-Employee-Attrition.csv
 
-
-
+```
 ---
 
 ## Development Notebook
@@ -145,4 +140,5 @@ The application will open in your browser
 - High explainability is critical for HR analytics adoptation
 - Deployment requires strict feature alignment between training and interference
 - SHAP greatly improves trust and interpretability of ML system
+
 
